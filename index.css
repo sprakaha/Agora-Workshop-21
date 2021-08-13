@@ -1,0 +1,46 @@
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    left: 0;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30vw;
+    height: 100vh;
+}
+
+.right {
+    right: 0;
+    background-color: rgb(16, 118, 182);
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 70vw;
+}
+
+.centered-h {
+    margin: auto;
+    text-align: center;
+    padding-top: 40%;
+}
+
+.centered-v-h {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Change Input Block with CSS */
+input:not(:valid) {
+    background-color: tomato;
+}
