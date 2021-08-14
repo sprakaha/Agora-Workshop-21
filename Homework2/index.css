@@ -1,0 +1,70 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    max-height: 100%;
+}
+
+.bg-green {
+    background-color: #a9e638;
+}
+
+.left {
+    left: 0;
+    background-color: #dbe9c3;
+    position: absolute;
+    padding-left: 20px;
+    top: 0;
+    left: 0;
+    width: 30vw;
+    height: 100vh;
+}
+
+
+.right {
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 70vw;
+}
+
+#welcome {
+    font-size: 100px;
+    text-align: center ;
+}
+
+.btn-starbust {
+    border: 1px solid #a9e638;
+    background-color: #a9e638;
+    color: #ffffff;
+    padding: 5px 10px;
+}
+
+.btn-starbust:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #050505;
+}
+
+.margin-left {
+    margin-left: 10px;
+}
+
+.player {
+    width: 720 px;
+    height: 540 px;
+}
+
+.player-name {
+    margin: 8px 0;
+}
+
+@media (max-width: 640px) {
+    .player {
+        width: 320px;
+        height: 240px;
+    }
+}
